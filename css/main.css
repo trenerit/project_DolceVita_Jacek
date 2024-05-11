@@ -140,6 +140,12 @@ a {
   }
 }
 
+.blackout {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
 .btn {
   color: #eff0f3;
   border: none;
@@ -180,10 +186,41 @@ a {
   padding: 0;
 }
 
+.heading--h1 {
+  color: #eff0f3;
+  font-size: 6rem;
+}
+@media screen and (min-width: 768px) {
+  .heading--h1 {
+    font-size: 8rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .heading--h1 {
+    font-size: 10rem;
+  }
+}
+
 .site-header {
   background: url("../../assets/img/bg-header.jpeg") center/cover fixed;
   height: 100vh;
   position: relative;
+}
+.site-header__blackout {
+  position: absolute;
+}
+.site-header__h1 {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center;
+}
+.site-header__button {
+  position: absolute;
+  bottom: 15%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
