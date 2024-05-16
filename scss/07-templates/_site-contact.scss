@@ -1,7 +1,7 @@
 @use '../01-settings/' as *;
 
 .site-contact {
-    background: url('../../assets/img/contact.jpeg') center/cover fixed;
+    background: url('../assets/img/contact.jpeg') center/cover fixed;
     color: $color-white;
     height: 85vh;
     position: relative;
