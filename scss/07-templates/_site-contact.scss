@@ -1,0 +1,24 @@
+@use '../01-settings/' as *;
+
+.site-contact {
+    background: url('../../assets/img/contact.jpeg') center/cover fixed;
+    color: $color-white;
+    height: 85vh;
+    position: relative;
+    
+    &__blackout {
+        position: absolute;
+    }
+    
+    &__h2 {
+        padding-top: 3rem;
+        position: absolute;
+    }
+
+    &__form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
